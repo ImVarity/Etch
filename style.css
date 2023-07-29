@@ -2,15 +2,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: black;
 }
 
-.grid {
+#grid {
     display: grid;
     height: 500px;
     width: 500px;
-    border: 4px black dotted;
-
+    background-color: white;
 }
 
 .tile {
@@ -19,5 +19,14 @@ body {
 
 .tile:hover {
     background-color: lightgray;
+}
+
+#bar {
+    height: 50px;
+    width: 500px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
