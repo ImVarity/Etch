@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.grid {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    border: 4px black dotted;
+
+}
+
+.tile {
+    background-color: white;
+}
+
+.tile:hover {
+    background-color: lightgray;
+}
+
